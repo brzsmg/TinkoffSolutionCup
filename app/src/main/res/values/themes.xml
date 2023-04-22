@@ -1,0 +1,58 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.SuperTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.SuperTheme.Card" >
+        <item name="android:layout_margin">26dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:background">@drawable/super_card</item>
+        <item name="android:textColor">@color/fg_text</item>
+    </style>
+
+    <style name="Theme.SuperTheme.Card.Top" >
+        <item name="android:background">@drawable/super_card_top</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="Theme.SuperTheme.TextHeader" >
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textColor">@color/fg_header_text</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Theme.SuperTheme.Text" >
+        <item name="android:textColor">@color/fg_text</item>
+    </style>
+
+    <style name="Theme.SuperTheme.Button" >
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:background">@drawable/super_button</item>
+        <item name="android:textColor">@color/fg_button</item>
+    </style>
+
+    <style name="Theme.SuperTheme.RoundImage" >
+        <item name="android:background">@drawable/super_round_image</item>
+        <item name="android:textColor">@color/fg_button</item>
+
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+</resources>
