@@ -8,3 +8,11 @@
 Я начал на 40 минут пойзже. Ничего не успел.  
   
 Поэтому тут не будет описания.  =)
+
+
+<h2>Screenshots</h2>
+<p>На втором изображении, могла бы быть полноценная ночная тема.</p>
+<div style="display:flex;">
+<img alt="App image" src="documents/day.jpg" width="45%">
+<img alt="App image" src="documents/night.jpg" width="45%">
+</div>
